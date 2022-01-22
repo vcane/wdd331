@@ -1,0 +1,32 @@
+1. The second <p> of the second <fieldset> could be selected by either of these selectors below. Explain why the first would be a better option than the second.
+
+ A. fieldset[title=fieldset2] > p + p
+
+ B. fieldset:nth-of-type(2) >p + p
+
+#1 answer: Selector A is a better option than selector B because the attribute selector targets the element with that exact attribute value. No matter where that fieldset with paragraphs is located, it will be targeted. For example, if selector B was used, then a new fieldset and it became the second fieldset, the original second fieldset with its paragraphs would no longer be targeted by the selector.
+
+2. Explain the difference the space makes with the following two selectors: "span.help" and "span .help". How does it change what will be selected?
+
+#2 answer: The space in "span .help" makes this selector a Descendant Combinator. The "span .help" selector is targeting every element that is a descendant of a span element with the class attribute of help. The "span.help" selector is a span element with class attribute of help. The "span.help" selector will target any span element with a class attribute of help no matter where the span is located in the HTML.
+
+3. For the example HTML Download example HTML, write the CSS that would surround the help text (class=“help”) with parenthesis.
+
+#3 answer: 
+
+.help::before {
+  content: "(";
+}
+
+.help::after {
+  content: ")";
+}
+
+4. Short forms are always nice. Write a CSS rule that will hide any paragraphs in a fieldset after the 2nd.
+
+#4 answer:
+
+fieldset p:nth-of-type(n + 3) {
+  display: none;
+}
+
