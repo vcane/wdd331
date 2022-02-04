@@ -1,0 +1,66 @@
+
+[4mmain.css[24m
+  [2m30:25[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                              [2mcolor-hex-case[22m                           
+  [2m36:1[22m   [31m[31m✖[39m  Expected selector "h1 a" to come before selector "p a:visited"                  [2mno-descending-specificity[22m                
+  [2m36:1[22m   [31m[31m✖[39m  Expected selector "h1 a" to come before selector "p a:hover"                    [2mno-descending-specificity[22m                
+  [2m36:5[22m   [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m38:10[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                              [2mcolor-hex-case[22m                           
+  [2m41:9[22m   [31m[31m✖[39m  Expected newline after "{" of a multi-line block                                [2mblock-opening-brace-newline-after[22m        
+  [2m41:10[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                            [2mno-eol-whitespace[22m                        
+  [2m42:3[22m   [31m[31m✖[39m  Unexpected longhand value '0.5rem 0 0 0' instead of '0.5rem 0 0'                [2mshorthand-property-no-redundant-values[22m   
+  [2m47:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "p a:visited"           [2mno-descending-specificity[22m                
+  [2m47:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "p a:hover"             [2mno-descending-specificity[22m                
+  [2m47:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "h1 a:visited"          [2mno-descending-specificity[22m                
+  [2m53:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "p a:visited"           [2mno-descending-specificity[22m                
+  [2m53:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "p a:hover"             [2mno-descending-specificity[22m                
+  [2m53:1[22m   [31m[31m✖[39m  Expected selector "nav ul li a" to come before selector "h1 a:visited"          [2mno-descending-specificity[22m                
+  [2m53:12[22m  [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m54:10[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                              [2mcolor-hex-case[22m                           
+  [2m57:11[22m  [31m[31m✖[39m  Expected selector "a:active" to come before selector "p a:visited"              [2mno-descending-specificity[22m                
+  [2m57:11[22m  [31m[31m✖[39m  Expected selector "a:active" to come before selector "p a:hover"                [2mno-descending-specificity[22m                
+  [2m57:11[22m  [31m[31m✖[39m  Expected selector "a:active" to come before selector "h1 a:visited"             [2mno-descending-specificity[22m                
+  [2m57:11[22m  [31m[31m✖[39m  Expected selector "a:active" to come before selector "nav ul li a:visited"      [2mno-descending-specificity[22m                
+  [2m57:11[22m  [31m[31m✖[39m  Expected selector "a:active" to come before selector "nav ul li a:active"       [2mno-descending-specificity[22m                
+  [2m57:19[22m  [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m57:29[22m  [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m57:31[22m  [31m[31m✖[39m  Expected selector "h2 a:active" to come before selector "nav ul li a:visited"   [2mno-descending-specificity[22m                
+  [2m57:31[22m  [31m[31m✖[39m  Expected selector "h2 a:active" to come before selector "nav ul li a:active"    [2mno-descending-specificity[22m                
+  [2m58:10[22m  [31m[31m✖[39m  Expected "#DEB887" to be "#deb887"                                              [2mcolor-hex-case[22m                           
+  [2m61:18[22m  [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m61:20[22m  [31m[31m✖[39m  Expected selector "h1 a:hover" to come before selector "nav ul li a:visited"    [2mno-descending-specificity[22m                
+  [2m61:20[22m  [31m[31m✖[39m  Expected selector "h1 a:hover" to come before selector "nav ul li a:active"     [2mno-descending-specificity[22m                
+  [2m61:20[22m  [31m[31m✖[39m  Expected selector "h1 a:hover" to come before selector "nav ul li a:hover"      [2mno-descending-specificity[22m                
+  [2m66:3[22m   [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m67:16[22m  [31m[31m✖[39m  Expected double quotes                                                          [2mstring-quotes[22m                            
+  [2m67:17[22m  [31m[31m✖[39m  Unexpected quotes around "Lora"                                                 [2mfont-family-name-quotes[22m                  
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "p a:visited"                  [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "p a:hover"                    [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "h1 a:visited"                 [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "nav ul li a"                  [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "nav ul li a"                  [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "nav ul li a:visited"          [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "nav ul li a:active"           [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "a:active"                     [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "h2 a:active"                  [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "nav ul li a:hover"            [2mno-descending-specificity[22m                
+  [2m70:1[22m   [31m[31m✖[39m  Expected selector "h2 a" to come before selector "h1 a:hover"                   [2mno-descending-specificity[22m                
+  [2m70:5[22m   [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+  [2m70:7[22m   [31m[31m✖[39m  Expected selector "h2 a:visited" to come before selector "nav ul li a:visited"  [2mno-descending-specificity[22m                
+  [2m70:7[22m   [31m[31m✖[39m  Expected selector "h2 a:visited" to come before selector "nav ul li a:active"   [2mno-descending-specificity[22m                
+  [2m70:7[22m   [31m[31m✖[39m  Expected selector "h2 a:visited" to come before selector "nav ul li a:hover"    [2mno-descending-specificity[22m                
+  [2m75:1[22m   [31m[31m✖[39m  Expected selector "h2 a:hover" to come before selector "nav ul li a:visited"    [2mno-descending-specificity[22m                
+  [2m75:1[22m   [31m[31m✖[39m  Expected selector "h2 a:hover" to come before selector "nav ul li a:active"     [2mno-descending-specificity[22m                
+  [2m75:1[22m   [31m[31m✖[39m  Expected selector "h2 a:hover" to come before selector "nav ul li a:hover"      [2mno-descending-specificity[22m                
+  [2m81:21[22m  [31m[31m✖[39m  Expected "#FAEBD7" to be "#faebd7"                                              [2mcolor-hex-case[22m                           
+  [2m88:26[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                            [2mno-eol-whitespace[22m                        
+  [2m88:27[22m  [31m[31m✖[39m  Expected newline before "}" of a multi-line block                               [2mblock-closing-brace-newline-before[22m       
+  [2m95:7[22m   [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+ [2m121:22[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block                    [2mdeclaration-block-semicolon-newline-after[22m
+ [2m121:27[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                            [2mno-eol-whitespace[22m                        
+ [2m122:16[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block                    [2mdeclaration-block-semicolon-newline-after[22m
+ [2m122:17[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                            [2mno-eol-whitespace[22m                        
+ [2m123:23[22m  [31m[31m✖[39m  Expected newline after ";" in a multi-line declaration block                    [2mdeclaration-block-semicolon-newline-after[22m
+ [2m123:24[22m  [31m[31m✖[39m  Unexpected whitespace at end of line                                            [2mno-eol-whitespace[22m                        
+ [2m139:9[22m   [31m[31m✖[39m  Expected newline after ","                                                      [2mselector-list-comma-newline-after[22m        
+ [2m144:1[22m   [31m[31m✖[39m  Unexpected missing end-of-source newline                                        [2mno-missing-end-of-source-newline[22m
+
