@@ -21,7 +21,7 @@
         </a>
       </div>
       <div class="site-banner__right">
-        <a class="common-button" href="http://www.byui.edu/#">
+        <a class="common-button search__hidden" href="http://www.byui.edu/#">
           <span class="icon-search text-white mobile-header-icon">
             <span class="sr-only">Search BYU-I</span>
           </span>
@@ -39,21 +39,20 @@
             </span>
           </span>
         </a>
+        <form aria-label="Search byui.edu" method="get" action="https://www.byui.edu/search/result?" role="search">
+          <div class="search-container">
+            <label for="searchDesktop" class="sr-only">
+              Search BYU-I websites:
+            </label>
+            <input class="search-box" id="searchDesktop" name="q" placeholder="Powered by Google" type="text" />
+            <button class="search-bttn" type="submit">
+              <span aria-hidden="true" class="icon icon-magnifying-glass ">
+                <span class="sr-only">Submit</span>
+              </span>
+            </button>
+          </div>
+        </form>
       </div>
-      <form aria-label="Search byui.edu" method="get" action="https://www.byui.edu/search/result?" role="search">
-        <div>
-          <label for="searchDesktop" class="sr-only">
-            Search BYU-I websites:
-          </label>
-          <input id="searchDesktop" name="q" placeholder="Powered by Google"
-            alt="Search BYU-I websites (powered by Google.com)." type="text" />
-          <button type="submit">
-            <span aria-hidden="true" class="icon icon-magnifying-glass ">
-              <span class="sr-only">Submit</span>
-            </span>
-          </button>
-        </div>
-      </form>
     </div>
     <h1>Brigham Young University - Idaho</h1>
   </header>
@@ -63,7 +62,7 @@
         <img class="main-img" src="images/Belong-Sisters-desktop_opt.jpg"
           alt="Two members of the Belong Sisters Association">
       </figure>
-      <figure class="fig__sm">
+      <figure class="fig__sm fig__lg1">
         <img class="img__sm img__lg" src="images/CampusVideos.jpg" alt="Videos of BYU-I campus">
         <figcaption>
           Campus Videos
@@ -71,7 +70,7 @@
           </span>
         </figcaption>
       </figure>
-      <figure class="fig__sm">
+      <figure class="fig__sm fig__lg2">
         <img class="img__sm img__lg" src="images/PhotoGallery(0).jpg"
           alt="Enjoy a collection of photos taken on the campus.">
         <figcaption>
@@ -80,7 +79,7 @@
           </span>
         </figcaption>
       </figure>
-      <figure class="fig__sm">
+      <figure class="fig__sm fig__lg3">
         <img class="img__sm img__lg" src="images/ExploreCampus.jpg"
           alt="Information for scheduling visits to the campus.">
         <figcaption>
@@ -153,7 +152,7 @@
       <section class="news-container">
         <article class="article">
           <div class="article-row">
-            <img class="article-img__displayed article-img__hidden" src="images/Winter 2022 enrollment small.png"
+            <img class="article-img__displayed article-img__hidden" src="images/Winter2022enrollmentsmall.png"
               alt="BYU-I students around a table with their laptops.">
           </div>
           <div class="article-text">
@@ -171,7 +170,7 @@
         </article>
         <article class="article">
           <div class="article-row">
-            <img class="article-img__displayed article-img__hidden" src="images/BYUI Christmas Concert.jpg" alt="BYU-I Christmas Concert">
+            <img class="article-img__displayed article-img__hidden" src="images/BYUIChristmasConcert.jpg" alt="BYU-I Christmas Concert">
           </div>
           <div class="article-text">
             <div class="article-date">December 9, 2021</div>
@@ -188,7 +187,7 @@
         </article>
         <article class="article">
           <div class="article-row">
-            <img class="article-img__displayed article-img__hidden" src="images/Nielson, Elder Brent.jpg" alt="Photo of Elder Brent Nielson">
+            <img class="article-img__displayed article-img__hidden" src="images/Nielson,ElderBrent.jpg" alt="Photo of Elder Brent Nielson">
           </div>
           <div class="article-text">
             <div class="article-date">December 1, 2021</div>
@@ -222,6 +221,9 @@
       </button>
     </div>
   </main>
-  <footer></footer>
+  <footer>
+    <h2 class="sr-only">Footer</h2>
+    <div class="footer-graphic"></div>
+  </footer>
 </body>
 </html>
